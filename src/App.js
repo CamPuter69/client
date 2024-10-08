@@ -1,5 +1,7 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import RazorpayButton from './components/RazorpayButton';
 
 function App() {
   return (
@@ -18,6 +20,12 @@ function App() {
           Learn React
         </a>
       </header>
+
+      {/* Razorpay Payment Gateway Integration */}
+      <div>
+        <h1>Razorpay Payment Gateway Integration</h1>
+        <RazorpayButton />
+      </div>
     </div>
   );
 }
